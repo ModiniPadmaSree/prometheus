@@ -1,0 +1,24 @@
+.suggestions {
+  background-color: #f1f8ff;
+  border-left: 4px solid #007bff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.suggestions h4 {
+  font-size: 16px;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.suggestions ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.suggestions li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}

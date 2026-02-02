@@ -1,0 +1,171 @@
+/* src/components/ResumeForm.module.css */
+
+.form {
+  background: linear-gradient(to right, #f5dff7, #b4cff7);
+  padding: 32px; 
+    border: 2px solid #6c139c00;
+  border-radius: 14px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 650px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+/* ===== TITLE ===== */
+.form h2 {
+  text-align: center;
+  color: #072545;
+  margin-bottom: 30px;
+  font-size: 1.9em;
+  font-weight: 700;
+}
+
+/* ===== LABELS ===== */
+.form label {
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 600;
+  color: #444;
+  font-size: 0.95em;
+}
+
+/* ===== INPUTS ===== */
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border: 1px solid #4f0968;
+  border-radius: 8px;
+  font-size: 0.95em;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color:1px solid #e1b7f0;
+  box-shadow: 0 0 0 3px rgba(123, 92, 255, 0.15);
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+/* ===== SECTION BLOCK ===== */
+.section {
+  border: 1px solid #f9b0fc;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  background-color: #faf9ff;
+}
+
+.section h3 {
+  font-size: 1.35em;
+  color: #0c2375;
+  margin-bottom: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* ===== ENTRY BLOCK ===== */
+.entryBlock {
+  border: 1px solid #eee;
+  padding: 18px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.entryBlock h4 {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+/* ===== BUTTONS ===== */
+.addBtn,
+.removeBtn,
+.saveBtn {
+  display: inline-block;
+  margin: 12px auto 6px auto;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.addBtn {
+  background: linear-gradient(135deg, #4e37d3, #2575fc);
+  color: white;
+  align-content: center;
+}
+
+.addBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(123, 92, 255, 0.25);
+}
+
+.removeBtn {
+  background: #ff4d4f;
+  color: white;
+}
+
+.removeBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(255, 77, 79, 0.25);
+}
+
+.saveBtn {
+  background: linear-gradient(135deg, #092561, #2575fc);
+  color: white;
+  width: 100%;
+  margin-top: 35px;
+  padding: 14px;
+  font-size: 1.05em;
+}
+
+.saveBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(101, 52, 255, 0.35);
+}
+
+/* ===== MESSAGES ===== */
+.message {
+  text-align: center;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #e9f7ef;
+  color: #28a745;
+  border: 1px solid #28a745;
+}
+
+/* ===== REQUIRED ===== */
+.required {
+  color: red;
+  margin-left: 4px;
+}
+
+/* ===== DATE INPUTS ===== */
+.dateInputs {
+  display: flex;
+  gap: 12px;
+}
+
+.dateInputs label {
+  flex: 1;
+}
