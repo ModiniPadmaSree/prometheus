@@ -1,4 +1,4 @@
-Monitoring Kubernetes-Deployed Resume Builder App using Prometheus & Grafana
+# Monitoring Kubernetes-Deployed Resume Builder App using Prometheus & Grafana
 
 A complete observability setup for a **MERN-based Resume Builder application** deployed on Kubernetes — featuring real-time metrics collection with **Prometheus**, visualization dashboards with **Grafana**, and email alerting via SMTP.
 
